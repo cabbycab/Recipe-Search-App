@@ -1,3 +1,5 @@
+// let recipe
+
 function handleGetData(event){
     event.preventDefault();
     
@@ -18,3 +20,7 @@ function handleGetData(event){
       )
   }
   $('form').on("submit", handleGetData)
+
+//   function renderRecipe(recipes) {
+
+//   }

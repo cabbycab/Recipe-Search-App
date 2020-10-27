@@ -8,7 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 5px;
+    margin: 5px 0 5px 0;
     font-family: Helvetica;
 } 
 
@@ -19,7 +19,12 @@ header, footer {
     color: #ffffff;
     width: 100%;
     height: 65px;
-    background-color: #00b4ae;
+    background-color: #f4a261;
+    border-radius: 10px;
+}
+
+header {
+    text-shadow: 1px 1px 5px #33658a;
 }
 
 footer {
@@ -30,4 +35,22 @@ footer {
 form {
     height: 30px;
     padding: 10px;
+}
+
+#search {
+    height: 30px;
+    color: #33658a;
+    font-size: 14px;
+}
+
+#button {
+    color: white;
+    background-color: #33658a;
+    border-radius: 5px;
+    height: 30px;
+    font-weight: bold;
+}
+
+main {
+    color: #33658a;
 }
