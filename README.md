@@ -19,8 +19,10 @@ A simple web application that allows you to search for recipes
 ![wireframe](./search.png)
 
 ## Getting Started:
-Here is the link to the recipe finder.
+- [Click Here](https://cabbycab.github.io/Recipe-Search-App/) to see the deployed app!
+- Just type in a type of food and 10 items will populate.
+- You can also click on a category in the navigation bar and it will take you to a page with multiple recipes.   
 
 
-## Obstacles:
-Difficulty with CSS. 
+## Next Steps:
+Be able to display more results by adding a Next Page button. 
