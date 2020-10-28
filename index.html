@@ -1,26 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script defer src="./js/script.js"></script>
   <link rel="stylesheet" href="./css/style.css">
-    <title>Recipe Search App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <title>Recipe Search App</title>
 </head>
+
 <body>
-    <header>
-        <h1>Recipe Finder</h1>
-    </header>
-    <p> Find your next meal, appetizer, or dessert here:</p>
-    <form>
-        <input id="search" type="text" placeholder="Find a recipe" />
-        <input id="button" type="submit" value="Find It!" />
-      </form>
-      <main>
-        
-       </main>
-      <div id="recipe-info"></div>
-      <footer>Top Recipes Here</footer>
+  <header>
+    <i class="fas fa-utensils"></i>
+    <h1>Recipe Finder</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="https://www.simplyrecipes.com/recipes/course/breakfast/" target="_blank">Breakfast</a></li>
+      <li><a href="https://www.simplyrecipes.com/recipes/course/lunch/" target="_blank">Lunch</a></li>
+      <li><a href="https://www.simplyrecipes.com/recipes/course/dinner/" target="_blank">Dinner</a></li>
+      <li><a href="https://www.simplyrecipes.com/?s=sides" target="_blank">Sides</a></li>
+      <li><a href="https://www.simplyrecipes.com/recipes/course/dessert/" target="_blank">Dessert</a></li>
+    </ul>
+  </nav>
+  <p id="text"> Find your next meal, appetizer, or dessert here:</p>
+  <form>
+    <input id="search" type="text" placeholder="Find a recipe" />
+    <input id="button" type="submit" value="Find It!" />
+  </form>
+  <main>
+
+  </main>
+  <div id="recipe-info"></div>
+  <footer>
+    <p>Copyright &copy; All Rights Reserved 2020</p>
+  </footer>
 </body>
+
 </html>

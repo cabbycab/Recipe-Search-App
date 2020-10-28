@@ -8,14 +8,19 @@ A simple web application that allows you to search for recipes
 - JavaScript
 - jQuery
 - Google Fonts
+- Font Awesome
 - Spoonacular API
 
 ## Wireframe:
+![wireframe](./RecipeFinderWireframe.png)
 
-![wireframe](./wireframe.png)
+## Screenshots of Webpage:
+![wireframe](./screenshot.png)
+![wireframe](./search.png)
 
 ## Getting Started:
-
+Here is the link to the recipe finder.
 
 
 ## Obstacles:
+Difficulty with CSS. 

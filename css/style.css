@@ -1,19 +1,18 @@
 * {
     box-sizing: border-box;
     margin: 0
-  }
+}
 
-  body {
+body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin: 5px 0 5px 0;
-    font-family: Helvetica;
+    font-family: 'Open Sans', sans-serif;
     position: relative;
     min-height: 100vh;
     background-color: #fefae0;
-} 
+}
 
 header, footer {
     display: flex;
@@ -21,7 +20,6 @@ header, footer {
     align-items: center;
     color: #ffffff;
     width: 100%;
-    height: 65px;
     background-color: #f4a261;
     border-radius: 10px;
 }
@@ -30,11 +28,20 @@ header {
     text-shadow: 1px 1px 5px #33658a;
     position: absolute;
     top: 0;
+    font-family: 'Sigmar One', cursive;
+    font-size: 25px;
+    height: 70px;
 }
 
 footer {
     position: absolute;
     bottom: 0;
+    height: 30px;
+}
+
+i {
+    font-size: 40px;
+    padding: 12px;
 }
 
 form {
@@ -48,6 +55,17 @@ form {
     font-size: 14px;
 }
 
+#text {
+    padding: 30px 0 0 0;
+    color: #33658a;
+}
+
+#text form #search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #button {
     color: white;
     background-color: #33658a;
@@ -56,16 +74,62 @@ form {
     font-weight: bold;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    align-self: flex-end;
+    background-color: #f4a261;
+    height: 35px;
+    width: 100%;
+    color: white !important;
+    padding: 70px;
+    font-family: 'Sigmar One', cursive;
+    border-radius: 10px;
+}
+
+nav li {
+    display: inline;
+    padding: 20px 12px 20px 12px;
+    font-size: 20px;
+    color: white !important;
+}
+
+li a:hover {
+    text-shadow: 3px 3px 7px black;
+    border-radius: 10px;
+    height: 35px;
+    color: white;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 5px #33658a;
+}
+
 main {
     color: #33658a;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 5px 15px 5px;
+    text-transform: capitalize;
 }
 
 img {
     display: flex;
     justify-content: left;
     flex-direction: column;
-    width: 100px;
-    height: auto;
-    padding: 10px 5px 10px 5px;
+    border-color: black;
+    padding: 10px;
     float: left;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 0px 15px 15px 0px;
+}
+
+div {
+    width: 550px;
 }
