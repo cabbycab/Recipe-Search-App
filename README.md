@@ -1,6 +1,6 @@
 # Recipe Finder
 
-A simple web application that allows you to search for recipes
+A simple web application that allows you to search for recipes.
 
 ## Technologies Used:
 - HTML5

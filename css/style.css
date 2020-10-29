@@ -60,7 +60,7 @@ form {
     color: #33658a;
 }
 
-#text form #search {
+#text #search {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +82,6 @@ nav {
     background-color: #f4a261;
     height: 35px;
     width: 100%;
-    color: white !important;
     padding: 70px;
     font-family: 'Sigmar One', cursive;
     border-radius: 10px;
@@ -92,14 +91,11 @@ nav li {
     display: inline;
     padding: 20px 12px 20px 12px;
     font-size: 20px;
-    color: white !important;
 }
 
 li a:hover {
     text-shadow: 3px 3px 7px black;
     border-radius: 10px;
-    height: 35px;
-    color: white;
 }
 
 li a {
@@ -115,6 +111,7 @@ main {
     flex-direction: column;
     padding: 15px 5px 15px 5px;
     text-transform: capitalize;
+    width: 550px;
 }
 
 img {
@@ -127,9 +124,14 @@ img {
     width: 100px;
     height: 100px;
     object-fit: cover;
-    margin: 0px 15px 15px 0px;
+    margin: 0px 12px 12px 0px;
 }
 
-div {
-    width: 550px;
+div a {
+    font-size: 15px;
+    color: #33658a;
+}
+
+div a:hover {
+    color: blue;
 }
