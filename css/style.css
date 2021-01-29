@@ -79,12 +79,9 @@ form {
 nav {
   display: flex;
   justify-content: center;
-  /* align-items: baseline;
-  align-self: flex-end; */
   background-color: #f4a261;
   height: 35px;
   width: 100%;
-  /* padding: 70px; */
   font-family: "Sigmar One", cursive;
   border-radius: 10px;
 }
@@ -151,9 +148,6 @@ div a:hover {
     max-width: 480px;
     display: block;
   }
-  /* img {
-    float: right;
-  } */
   #text {
     padding: 225px 0 0 0;
   }
